@@ -13,6 +13,7 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials.map((sentence) => {
+    sentence.split(' ')
     return sentence[0].toUpperCase() + sentence.slice(1);
   })
 }
